@@ -14,6 +14,10 @@
 		61F351252216F18C00F2BE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F351232216F18C00F2BE64 /* LaunchScreen.storyboard */; };
 		61F351302216F18C00F2BE64 /* ILW_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3512F2216F18C00F2BE64 /* ILW_iOSTests.swift */; };
 		61F3513B2216F18C00F2BE64 /* ILW_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3513A2216F18C00F2BE64 /* ILW_iOSUITests.swift */; };
+		61F351492216F23800F2BE64 /* PostView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F351482216F23800F2BE64 /* PostView.xib */; };
+		61F3514B2216F25E00F2BE64 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3514A2216F25E00F2BE64 /* PostView.swift */; };
+		61F3514D2216F87000F2BE64 /* 64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F3514C2216F87000F2BE64 /* 64x64.png */; };
+		61F3514F2216FB0D00F2BE64 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3514E2216FB0D00F2BE64 /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		61F351362216F18C00F2BE64 /* ILW-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ILW-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F3513A2216F18C00F2BE64 /* ILW_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILW_iOSUITests.swift; sourceTree = "<group>"; };
 		61F3513C2216F18C00F2BE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F351482216F23800F2BE64 /* PostView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostView.xib; sourceTree = "<group>"; };
+		61F3514A2216F25E00F2BE64 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		61F3514C2216F87000F2BE64 /* 64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 64x64.png; sourceTree = "<group>"; };
+		61F3514E2216FB0D00F2BE64 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,9 @@
 		61F3510E2216F18A00F2BE64 = {
 			isa = PBXGroup;
 			children = (
+				61F3514C2216F87000F2BE64 /* 64x64.png */,
+				61F3514A2216F25E00F2BE64 /* PostView.swift */,
+				61F351482216F23800F2BE64 /* PostView.xib */,
 				61F351192216F18A00F2BE64 /* ILW-iOS */,
 				61F3512E2216F18C00F2BE64 /* ILW-iOSTests */,
 				61F351392216F18C00F2BE64 /* ILW-iOSUITests */,
@@ -103,6 +114,7 @@
 				61F351212216F18C00F2BE64 /* Assets.xcassets */,
 				61F351232216F18C00F2BE64 /* LaunchScreen.storyboard */,
 				61F351262216F18C00F2BE64 /* Info.plist */,
+				61F3514E2216FB0D00F2BE64 /* PostTableViewCell.swift */,
 			);
 			path = "ILW-iOS";
 			sourceTree = "<group>";
@@ -230,7 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				61F351252216F18C00F2BE64 /* LaunchScreen.storyboard in Resources */,
+				61F3514D2216F87000F2BE64 /* 64x64.png in Resources */,
 				61F351222216F18C00F2BE64 /* Assets.xcassets in Resources */,
+				61F351492216F23800F2BE64 /* PostView.xib in Resources */,
 				61F351202216F18A00F2BE64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				61F3511D2216F18A00F2BE64 /* ViewController.swift in Sources */,
+				61F3514B2216F25E00F2BE64 /* PostView.swift in Sources */,
 				61F3511B2216F18A00F2BE64 /* AppDelegate.swift in Sources */,
+				61F3514F2216FB0D00F2BE64 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
